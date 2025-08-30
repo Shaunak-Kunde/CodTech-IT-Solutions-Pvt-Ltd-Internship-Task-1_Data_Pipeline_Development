@@ -8,7 +8,8 @@ The goal is to build a **data pipeline** for ETL (Extract, Transform, Load) and 
 ## 🚀 Project Workflow
 
 1. **Data Loading**  
-   - Load dataset (`BigBasket Products.csv`) using Pandas.  
+   - Load dataset from Kaggle Link https://www.kaggle.com/code/ridamahmood005/indian-grocery-supermarket-big-basket-eda
+   - (`BigBasket Products.csv`) using Pandas.  
    
 2. **Preprocessing & Cleaning**  
    - Handle missing values.  
@@ -39,8 +40,6 @@ The goal is to build a **data pipeline** for ETL (Extract, Transform, Load) and 
 
 - Top 10 categories by product count (pie chart)  
 - Top 10 products offering highest discount (%)  
-- Bottom 10 products by sale price  
-- Top 50 brands by average ratings  
 - Scatter plot of Sale Price vs Rating  
 
 ---
@@ -58,11 +57,16 @@ The goal is to build a **data pipeline** for ETL (Extract, Transform, Load) and 
 
 ## 📂 Project Structure
 Task-1 Data Pipeline Development/
-│── BigBasket Products.csv # Original dataset (not uploaded to GitHub due to size)
-│── BigBasket_Processed.csv # Processed dataset (saved locally, sampled for GitHub)
-│── Task1_Data_Pipeline.ipynb # Main Jupyter Notebook
+│── BigBasket Products.csv # Original dataset
+│── BigBasket_Processed.csv.parquet # Processed dataset (saved locally, sampled for GitHub)
+│── bigbasket_pipeline.ipynb # Main Jupyter Notebook
 │── requirements.txt # Required Python libraries
-│── README.md # Project documentation
+│── requirements.txt
+│── label_encoders.pkl
+│── readme.md # Project documentation
+│── scaler.pkl
+
+
 
 
 ## 📊 Summary & Insights
@@ -86,12 +90,9 @@ Task-1 Data Pipeline Development/
 
 ## ⚠️ Note  
 
-- The **original dataset** is very large (~300MB), so only **sample data** is committed to GitHub.  
+- The **processed dataset** is very large (~309MB), so only **sample data** is committed to GitHub.  
 - Run the notebook locally with the full dataset for complete results.  
 
-
 This concludes **Task-1: Data Pipeline Development** for the CodTech Internship 🚀
-
----
 
 👨‍💻 Developed by: **Shaunak Damodar Sinai Kunde**  
