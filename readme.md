@@ -1,5 +1,12 @@
 # CODTECH Internship – Task 1: Data Pipeline Development  
 
+# Company:- CodTech IT Solutions Pvt. Ltd., Hyderabad
+# Name:- Shaunak Damodar Sinai Kunde
+# Intern ID:- CT04DY1729
+# Domain:- Data Science
+# Duration:- 4 weeks
+# Mentor:- Muzammil Ahmed
+
 This project is part of my **CODTECH Virtual Internship** under **Data Science**.  
 The goal is to build a **data pipeline** for ETL (Extract, Transform, Load) and perform **exploratory data analysis (EDA)** on the BigBasket dataset.  
 
@@ -98,4 +105,5 @@ Task-1 Data Pipeline Development/
 This concludes **Task-1: Data Pipeline Development** for the CodTech Internship 🚀
 
 👨‍💻 Developed by: **Shaunak Damodar Sinai Kunde**  
+
 
