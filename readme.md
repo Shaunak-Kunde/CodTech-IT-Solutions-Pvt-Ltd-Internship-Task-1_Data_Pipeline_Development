@@ -85,7 +85,9 @@ Task-1 Data Pipeline Development/
 ### ✅ Deliverables
 - Clean dataset → `bigbasket_processed.csv`  
 - Reusable sklearn pipeline → `bigbasket_pipeline.pkl`  
-- Visualizations of brand distribution & discounts  
+- Visualizations of brand distribution & discounts
+- <img width="326" height="539" alt="t1 1" src="https://github.com/user-attachments/assets/b260af81-7cba-4c7e-89ec-e475dd6d922d" />
+
 - Full pipeline automation in this notebook  
 
 ## ⚠️ Note  
@@ -96,3 +98,4 @@ Task-1 Data Pipeline Development/
 This concludes **Task-1: Data Pipeline Development** for the CodTech Internship 🚀
 
 👨‍💻 Developed by: **Shaunak Damodar Sinai Kunde**  
+
